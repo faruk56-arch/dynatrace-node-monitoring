@@ -4,11 +4,16 @@ This project demonstrates end-to-end monitoring of a Node.js application using *
 
 ## 🌐 Overview
 I deployed a Node.js/Express application, installed Dynatrace OneAgent, and created a real monitoring dashboard including:
-- Host metrics (CPU, memory, network)
-- Node.js service performance (response time, RPS, errors)
-- Slow endpoint analysis
-- Davis AI anomaly detection
-- Custom Dynatrace dashboard
+- Install and configure **Dynatrace OneAgent**
+- Automatically discover:
+  - Host metrics (CPU, memory, network)
+  - Processes
+  - Node.js services and endpoints
+- Build a **Dynatrace dashboard** combining:
+  - Service response time, RPS, error rate, slowest requests
+  - Host CPU, memory and network usage
+- Simulate slow endpoints and errors to validate **Davis AI** anomaly detection
+
 
 ## 📁 Project Structure
 
