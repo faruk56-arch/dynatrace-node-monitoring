@@ -1,5 +1,5 @@
-
- /package-lock.json
- /node_modules/
+# ignore lockfile and node modules at repo root
+/package-lock.json
+/node_modules/
 
 
